@@ -1,0 +1,33 @@
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ball-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-wrapper {
+    width: 100px;
+    padding: 5px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.stop-button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50px;
+    background-color: #a70d0d;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
