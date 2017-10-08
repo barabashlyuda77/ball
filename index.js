@@ -13,4 +13,9 @@ stopButton.addEventListener('click', stopShowBalls);
 
 function stopShowBalls() {
     clearInterval(intervalID);
+    const resultOfConfirm = confirm('Do you want to calculate the amount of balls?');
+    if (resultOfConfirm === true) {
+        const amountOfBalls = document.querySelectorAll('.img-wrapper');
+        alert(amountOfBalls.length);
+    }
 }
